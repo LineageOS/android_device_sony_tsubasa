@@ -18,7 +18,6 @@ bin/mpdecision
 bin/netmgrd
 bin/qmiproxy
 bin/qmuxd
-bin/ric
 bin/rild
 bin/rmt_storage
 bin/secchand
@@ -156,8 +155,6 @@ lib/libOpenCL.so
 lib/libOpenVG.so
 lib/libQSEEComAPI.so
 lib/lib_asb_tee.so
-lib/lib_get_rooting_status.so
-lib/lib_get_secure_mode.so
 lib/libacdbloader.so
 lib/libals.so
 lib/libaudcal.so

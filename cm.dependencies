@@ -6,6 +6,5 @@
  {
     "repository": "android_kernel_sony_msm8x60",
     "target_path": "kernel/sony/msm8x60",
-    "branch": "mr1-staging"
   }
 ]

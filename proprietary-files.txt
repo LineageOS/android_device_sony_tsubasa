@@ -48,13 +48,11 @@ etc/firmware/dsps.b02
 etc/firmware/dsps.b03
 etc/firmware/dsps.b04
 etc/firmware/dsps.b05
-etc/firmware/dsps.flist
 etc/firmware/dsps.mdt
 etc/firmware/dxhdcp2.b00
 etc/firmware/dxhdcp2.b01
 etc/firmware/dxhdcp2.b02
 etc/firmware/dxhdcp2.b03
-etc/firmware/dxhdcp2.flist
 etc/firmware/dxhdcp2.mdt
 etc/firmware/leia_pfp_470.fw
 etc/firmware/leia_pm4_470.fw
@@ -69,7 +67,6 @@ etc/firmware/modem.b07
 etc/firmware/modem.b08
 etc/firmware/modem.b09
 etc/firmware/modem.b10
-etc/firmware/modem.flist
 etc/firmware/modem.mdt
 etc/firmware/modem_fw.b00
 etc/firmware/modem_fw.b01
@@ -91,7 +88,6 @@ etc/firmware/modem_fw.b23
 etc/firmware/modem_fw.b25
 etc/firmware/modem_fw.b26
 etc/firmware/modem_fw.b29
-etc/firmware/modem_fw.flist
 etc/firmware/modem_fw.mdt
 etc/firmware/q6.b00
 etc/firmware/q6.b01
@@ -107,19 +103,16 @@ etc/firmware/tzlibasb.b00
 etc/firmware/tzlibasb.b01
 etc/firmware/tzlibasb.b02
 etc/firmware/tzlibasb.b03
-etc/firmware/tzlibasb.flist
 etc/firmware/tzlibasb.mdt
 etc/firmware/tzs1sl.b00
 etc/firmware/tzs1sl.b01
 etc/firmware/tzs1sl.b02
 etc/firmware/tzs1sl.b03
-etc/firmware/tzs1sl.flist
 etc/firmware/tzs1sl.mdt
 etc/firmware/tzsuntory.b00
 etc/firmware/tzsuntory.b01
 etc/firmware/tzsuntory.b02
 etc/firmware/tzsuntory.b03
-etc/firmware/tzsuntory.flist
 etc/firmware/tzsuntory.mdt
 etc/firmware/vidc.b00
 etc/firmware/vidc.b01
@@ -135,7 +128,6 @@ etc/firmware/wcnss.b01
 etc/firmware/wcnss.b02
 etc/firmware/wcnss.b04
 etc/firmware/wcnss.b05
-etc/firmware/wcnss.flist
 etc/firmware/wcnss.mdt
 etc/firmware/wlan/prima/WCNSS_cfg.dat
 etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini

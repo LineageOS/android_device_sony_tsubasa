@@ -50,7 +50,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/vold.fstab:system/etc/vold.fstab \
     $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
 
 # Device specific part for two-stage boot

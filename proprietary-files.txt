@@ -4,15 +4,11 @@ bin/btnvtool
 bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
-bin/cnd
-bin/drmdiagapp
 bin/ds_fmc_appd
 bin/fast-dormancy
 bin/fm_qsoc_patches
 bin/fmconfig
-bin/fota-snoop
 bin/hci_qcomm_init
-bin/iw
 bin/mm-pp-daemon
 bin/mpdecision
 bin/netmgrd
@@ -21,7 +17,6 @@ bin/qmuxd
 bin/rild
 bin/rmt_storage
 bin/secchand
-bin/startupflag
 bin/system_monitor
 bin/ta_param_loader
 bin/ta_qmi_service
@@ -29,7 +24,6 @@ bin/tad
 bin/taimport
 bin/thermald
 bin/updatemiscta
-bin/usbeng
 bin/usbhub
 bin/usbhub_init
 bin/wait4tad
@@ -163,9 +157,6 @@ lib/libc2d2_z180.so
 #lib/libcameraextensionjni.so
 #lib/libcameraextensionservice.so
 #lib/libcameralight.so
-lib/libcneapiclient.so
-lib/libcneqmiutils.so
-lib/libcneutils.so
 lib/libdiag.so
 lib/libdrmdiag.so
 lib/libdsi_netctrl.so
@@ -223,7 +214,6 @@ lib/libsys-utils.so
 lib/libsysmon_idd.so
 lib/libta.so
 lib/libv8.so
-lib/libxml.so
 lib/sysmon/sysmon_batt_therm.so
 lib/sysmon/sysmon_camif.so
 lib/sysmon/sysmon_charge_current_limit_level.so

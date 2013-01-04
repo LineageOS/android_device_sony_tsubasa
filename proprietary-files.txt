@@ -14,7 +14,6 @@ bin/mpdecision
 bin/netmgrd
 bin/qmiproxy
 bin/qmuxd
-bin/rild
 bin/rmt_storage
 bin/secchand
 bin/system_monitor
@@ -205,7 +204,6 @@ lib/libqmi_csi.so
 lib/libqmi_encdec.so
 lib/libqmiservices.so
 lib/libril-qc-qmi-1.so
-lib/libril.so
 lib/libs1sl.so
 lib/libsc-a2xx.so
 lib/libsensor1.so

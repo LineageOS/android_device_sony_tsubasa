@@ -156,6 +156,8 @@ lib/libdrmdiag.so
 lib/libdsi_netctrl.so
 lib/libdsutils.so
 lib/libface.so
+lib/libfmradio.so
+lib/libfmradio.sony-iris.so
 lib/libgemini.so
 lib/libgsl.so
 lib/libidd.so

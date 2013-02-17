@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/clearpad.idc:system/usr/idc/clearpad.idc \
     $(LOCAL_PATH)/config/keypad_8960.kl:system/usr/keylayout/keypad_8960.kl \
-    $(LOCAL_PATH)/config/msm8960-snd-card_Button_Jack.kl:system/usr/keylayout/msm8960-snd-card_Button_Jack.kl \
+    $(LOCAL_PATH)/config/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl \
     $(LOCAL_PATH)/config/pmic8xxx_pwrkey.kl:system/usr/keylayout/pmic8xxx_pwrkey.kl \
     $(LOCAL_PATH)/config/simple_remote_appkey.kl:system/usr/keylayout/simple_remote_appkey.kl \
     $(LOCAL_PATH)/config/simple_remote.kl:system/usr/keylayout/simple_remote.kl

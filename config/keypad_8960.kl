@@ -18,6 +18,7 @@
 key 59    MENU                  WAKE
 key 60    HOME                  WAKE
 key 62    BACK                  WAKE_DROPPED
+key 116   POWER                 WAKE
 # Volume keys
 key 115   VOLUME_UP         WAKE_DROPPED
 key 114   VOLUME_DOWN       WAKE_DROPPED

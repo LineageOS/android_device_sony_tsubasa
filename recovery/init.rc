@@ -38,7 +38,7 @@ on boot
     class_start default
 
 on post-fs
-    mount ext4 /dev/block/platform/msm_sdcc.1/by-name/SDCard /sdcard
+    mount ext4 /dev/block/mmcblk0p15 /sdcard
 
 service ueventd /sbin/ueventd
     critical

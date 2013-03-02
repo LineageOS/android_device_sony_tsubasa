@@ -37,10 +37,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
     $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
 
-# sysmon conf
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/sysmon.cfg:system/etc/sysmon.cfg
-
 # Device specific init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/init.device.rc:root/init.device.rc

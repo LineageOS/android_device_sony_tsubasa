@@ -1,3 +1,21 @@
+
+#!/bin/sh
+# hw_config.sh.
+# Used to set special parameters.
+
+# Touch FW updater. Force firmware upgrade if necessary (for e.g. if'function 11' is missing.)
+ls -l /sys/bus/rmi4/devices/sensor00/sensor00.f11/ &> /dev/null
+flags=
+if [ $? -ne 0 ] ; then
+        flags="-r -f"
+fi
+
+module_id=$(/system/bin/ta_param_loader -t 60221 -f "%02x")
+
+fw=touch_module_id_0x${module_id}.img
+
+rmi4_fwloader -b /system/etc/firmware/$fw -d /sys/bus/rmi4/devices/sensor00 $flags
+
 # Audio jack configuration
 dev=/sys/devices/platform/msm_ssbi.0/pm8921-core/simple_remote_pf/simple_remote
 echo 0,301 > $dev/accessory_min_vals

@@ -1,6 +1,3 @@
-# inherit from the proprietary version
--include vendor/sony/tsubasa/BoardConfigVendor.mk
-
 #inherit from the common blue definitions
 -include device/sony/blue-common/BoardConfigCommon.mk
 
@@ -28,3 +25,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
 TARGET_OTA_ASSERT_DEVICE := LT25i,tsubasa
+
+# inherit from the proprietary version
+-include vendor/sony/tsubasa/BoardConfigVendor.mk

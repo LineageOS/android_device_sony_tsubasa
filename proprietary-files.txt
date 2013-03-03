@@ -1,4 +1,3 @@
-bin/bridgemgrd
 bin/btnvtool
 bin/cal_data_manager
 bin/chargemon

@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//5Hg\u003d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2013-03-03T00:07:04Z",
+      "side": 1,
+      "message": "not needed",
+      "revId": "f03546a540431a4197213324e84caf625d09a08d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//5Hc\u003d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2013-03-03T00:07:04Z",
+      "side": 1,
+      "message": "???",
+      "revId": "f03546a540431a4197213324e84caf625d09a08d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAdX//5HY\u003d",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 19
+      },
+      "writtenOn": "2013-03-03T00:07:04Z",
+      "side": 1,
+      "message": "NOOO",
+      "revId": "f03546a540431a4197213324e84caf625d09a08d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

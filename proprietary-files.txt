@@ -10,7 +10,6 @@ bin/hci_qcomm_init
 bin/mm-qcamera-daemon
 bin/mpdecision
 bin/netmgrd
-bin/qmiproxy
 bin/qmuxd
 bin/qrngd
 bin/qseecomd

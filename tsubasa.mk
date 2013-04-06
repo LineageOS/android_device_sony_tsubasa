@@ -60,6 +60,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/cyttsp-i2c.kl:system/usr/keylayout/cyttsp-i2c.kl \
     $(LOCAL_PATH)/config/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+# RIL
+PRODUCT_PROPERTY_OVERRIDES += \
+    telephony.lteOnGsmDevice=1
+
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 $(call inherit-product-if-exists, vendor/sony/tsubasa/tsubasa-vendor.mk)

@@ -113,6 +113,8 @@ etc/firmware/wcnss.b02
 etc/firmware/wcnss.b04
 etc/firmware/wcnss.b05
 etc/firmware/wcnss.mdt
+lib/hw/camera.msm8960.so
+lib/hw/camera.qcom.so
 lib/hw/gps.default.so
 lib/hw/nfc.msm8960.so
 lib/libMPU3050.so
@@ -130,6 +132,7 @@ lib/libcald_pal.so
 lib/libcald_server.so
 lib/libcald_util.so
 lib/libcameralight.so
+lib/libcamera_clientsemc.so
 lib/libcnefeatureconfig.so
 lib/libcneqmiutils.so
 lib/libcneutils.so
@@ -160,6 +163,7 @@ lib/libmm-color-convertor.so
 lib/libmmcamera_faceproc.so
 lib/libmmcamera_frameproc.so
 lib/libmmcamera_hdr_lib.so
+lib/libmmcamera_interface2.so
 lib/libmmcamera_image_stab.so
 lib/libmmcamera_statsproc31.so
 lib/libmmcamera_wavelet_lib.so
@@ -190,14 +194,14 @@ lib/libsysmon_idd.so
 lib/libta.so
 lib/libv8.so
 lib/libxml.so
-vendor/camera/APT00YP1.dat
 vendor/camera/KMO13BS0.dat
-vendor/camera/KMO13BS0_BU6456.dat
-vendor/camera/KMO13BS0_IMX091.dat
-vendor/camera/SOI13BS0.dat
-vendor/camera/SOI13BS0_BU6456.dat
-vendor/camera/SOI13BS0_IMX091.dat
-vendor/camera/STW00YP1.dat
 vendor/camera/flash.dat
+vendor/camera/APT00YP1.dat
 vendor/camera/product.dat
+vendor/camera/KMO13BS0_IMX091.dat
+vendor/camera/STW00YP1.dat
+vendor/camera/SOI13BS0_BU6456.dat
+vendor/camera/KMO13BS0_BU6456.dat
+vendor/camera/SOI13BS0.dat
+vendor/camera/SOI13BS0_IMX091.dat
 vendor/firmware/libpn544_fw_c3.so:vendor/firmware/libpn544_fw.so

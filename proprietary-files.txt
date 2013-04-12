@@ -7,7 +7,6 @@ bin/fast-dormancy
 bin/fm_qsoc_patches
 bin/fmconfig
 bin/hci_qcomm_init
-bin/mm-qcamera-daemon
 bin/mpdecision
 bin/netmgrd
 bin/qmuxd
@@ -113,6 +112,9 @@ etc/firmware/wcnss.b02
 etc/firmware/wcnss.b04
 etc/firmware/wcnss.b05
 etc/firmware/wcnss.mdt
+etc/flashled_calc_parameters.cfg
+lib/hw/camera.msm8960.so
+lib/hw/camera.qcom.so
 lib/hw/gps.default.so
 lib/hw/nfc.msm8960.so
 lib/libMPU3050.so
@@ -130,6 +132,7 @@ lib/libcald_pal.so
 lib/libcald_server.so
 lib/libcald_util.so
 lib/libcameralight.so
+lib/libcamera_clientsemc.so
 lib/libcnefeatureconfig.so
 lib/libcneqmiutils.so
 lib/libcneutils.so
@@ -159,6 +162,7 @@ lib/libmlplatform.so
 lib/libmm-color-convertor.so
 lib/libmmcamera_faceproc.so
 lib/libmmcamera_frameproc.so
+lib/libmmcamera_interface2.so
 lib/libmmcamera_hdr_lib.so
 lib/libmmcamera_image_stab.so
 lib/libmmcamera_statsproc31.so

@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/sensor00_f11_sensor0.idc:system/usr/idc/sensor00_f11_sensor0.idc \
     $(LOCAL_PATH)/config/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl \
     $(LOCAL_PATH)/config/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
-    $(LOCAL_PATH)/config/cyttsp-i2c.kl:system/usr/keylayout/cyttsp-i2c.kl \
     $(LOCAL_PATH)/config/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
 #Build DeviceParts

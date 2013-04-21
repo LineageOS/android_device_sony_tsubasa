@@ -59,6 +59,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/config/cyttsp-i2c.kl:system/usr/keylayout/cyttsp-i2c.kl \
     $(LOCAL_PATH)/config/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+#Build DeviceParts
+PRODUCT_PACKAGES += \
+    XperiaSettings
+
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     telephony.lteOnGsmDevice=1

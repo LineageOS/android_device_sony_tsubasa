@@ -1,7 +1,7 @@
 on boot
     # Vibrator
-    chown system system /sys/devices/i2c-12/12-0049/intensity
-    chmod 666 /sys/devices/i2c-12/12-0049/intensity
+    chown system system /sys/devices/virtual/timed_output/vibrator/level
+    chmod 666 /sys/devices/virtual/timed_output/vibrator/level
 
 on post-fs
     # Touch firmware update

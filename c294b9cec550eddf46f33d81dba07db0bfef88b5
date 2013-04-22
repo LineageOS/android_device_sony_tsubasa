@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAen//3dw\u003d",
+        "filename": "overlay/device/sony/blue-common/XperiaSettings/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 605
+      },
+      "writtenOn": "2013-04-22T09:03:28Z",
+      "side": 1,
+      "message": "clean !",
+      "revId": "c294b9cec550eddf46f33d81dba07db0bfef88b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

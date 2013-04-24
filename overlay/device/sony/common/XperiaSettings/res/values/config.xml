@@ -24,7 +24,7 @@
     <!-- Haptic Settings is present -->
     <bool name="has_vibrator_tuning">true</bool>
 
-    <string name="vibrator_sysfs_file">"/sys/devices/i2c-12/12-0049/intensity"</string>
+    <string name="vibrator_sysfs_file">"/sys/class/timed_output/vibrator/level"</string>
     <string name="intensity_max_value">31</string>
     <string name="intensity_warning_threshold">28</string>
     <string name="intensity_default_value">25</string>

@@ -32,20 +32,17 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Configuration scripts
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/sensors.conf:system/etc/sensors.conf \
-    $(LOCAL_PATH)/prebuilt/pre_hw_config.sh:system/etc/pre_hw_config.sh \
-    $(LOCAL_PATH)/prebuilt/hw_config.sh:system/etc/hw_config.sh
+    $(LOCAL_PATH)/rootdir/sensors.conf:system/etc/sensors.conf \
+    $(LOCAL_PATH)/rootdir/pre_hw_config.sh:system/etc/pre_hw_config.sh \
+    $(LOCAL_PATH)/rootdir/hw_config.sh:system/etc/hw_config.sh
 
 # Device specific init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/init.device.rc:root/init.device.rc
+    $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
 
 # USB function switching
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/init.sony.usb.rc:root/init.sony.usb.rc
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/media_profiles.xml:system/etc/media_profiles.xml
+    $(LOCAL_PATH)/rootdir/init.sony.usb.rc:root/init.sony.usb.rc
 
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
@@ -53,10 +50,7 @@ PRODUCT_COPY_FILES += \
 
 # Key layouts and touchscreen
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/sensor00_f11_sensor0.idc:system/usr/idc/sensor00_f11_sensor0.idc \
-    $(LOCAL_PATH)/config/Button_Jack.kl:system/usr/keylayout/Button_Jack.kl \
-    $(LOCAL_PATH)/config/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl \
-    $(LOCAL_PATH)/config/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
+    $(LOCAL_PATH)/rootdir/system/usr/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl
 
 #Build DeviceParts
 PRODUCT_PACKAGES += \

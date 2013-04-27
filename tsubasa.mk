@@ -30,11 +30,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# Configuration scripts
+# HW Settings
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/sensors.conf:system/etc/sensors.conf \
-    $(LOCAL_PATH)/rootdir/pre_hw_config.sh:system/etc/pre_hw_config.sh \
-    $(LOCAL_PATH)/rootdir/hw_config.sh:system/etc/hw_config.sh
+    $(LOCAL_PATH)/rootdir/system/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
+    $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh
+
+# Sensors
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf
 
 # Device specific init
 PRODUCT_COPY_FILES += \
@@ -47,10 +50,6 @@ PRODUCT_COPY_FILES += \
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/bootrec-device:recovery/bootrec-device
-
-# Key layouts and touchscreen
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/usr/keylayout/atmel_mxt_ts.kl:system/usr/keylayout/atmel_mxt_ts.kl
 
 #Build DeviceParts
 PRODUCT_PACKAGES += \

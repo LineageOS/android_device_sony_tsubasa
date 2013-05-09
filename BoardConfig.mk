@@ -20,7 +20,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/tsubasa/bluetooth
 
 # Recovery
-TARGET_RECOVERY_INITRC := device/sony/tsubasa/recovery/init.rc
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_USERIMAGES_USE_EXT4 := true
 

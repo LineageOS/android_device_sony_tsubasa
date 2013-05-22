@@ -10,7 +10,6 @@ bin/hci_qcomm_init
 bin/mpdecision
 bin/netmgrd
 bin/qmuxd
-bin/qrngd
 bin/qseecomd
 bin/rmi4_fwloader
 bin/rmt_storage

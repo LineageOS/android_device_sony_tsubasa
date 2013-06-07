@@ -19,6 +19,9 @@ $(call inherit-product, device/sony/blue-common/blue.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/sony/tsubasa/overlay
 
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml

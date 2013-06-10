@@ -130,8 +130,8 @@ lib/libcald_imageutil.so
 lib/libcald_pal.so
 lib/libcald_server.so
 lib/libcald_util.so
-lib/libcameralight.so
 lib/libcamera_clientsemc.so
+lib/libcameralight.so
 lib/libcnefeatureconfig.so
 lib/libcneqmiutils.so
 lib/libcneutils.so
@@ -151,7 +151,6 @@ lib/libimage-jpeg-enc-omx-comp.so
 lib/libimage-omx-common.so
 lib/libkeyctrl.so
 lib/liblights-core.so
-lib/liblights-core.so
 lib/libloc_adapter.so
 lib/libloc_api_v02.so
 lib/libloc_eng.so
@@ -161,9 +160,9 @@ lib/libmlplatform.so
 lib/libmm-color-convertor.so
 lib/libmmcamera_faceproc.so
 lib/libmmcamera_frameproc.so
-lib/libmmcamera_interface2.so
 lib/libmmcamera_hdr_lib.so
 lib/libmmcamera_image_stab.so
+lib/libmmcamera_interface2.so
 lib/libmmcamera_statsproc31.so
 lib/libmmcamera_wavelet_lib.so
 lib/libmmjpeg.so

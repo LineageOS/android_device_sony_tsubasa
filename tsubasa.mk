@@ -57,4 +57,5 @@ PRODUCT_PACKAGES += \
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
-$(call inherit-product-if-exists, vendor/sony/tsubasa/tsubasa-vendor.mk)
+# Include non-opensource parts
+$(call inherit-product, vendor/sony/tsubasa/tsubasa-vendor.mk)

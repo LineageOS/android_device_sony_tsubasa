@@ -112,8 +112,8 @@ etc/firmware/wcnss.b04
 etc/firmware/wcnss.b05
 etc/firmware/wcnss.mdt
 etc/flashled_calc_parameters.cfg
-lib/hw/camera.msm8960.so
-lib/hw/camera.qcom.so
+lib/hw/camera.msm8960.so:lib/hw/vendor-camera.msm8960.so
+lib/hw/camera.qcom.so:lib/hw/vendor-camera.qcom.so
 lib/hw/gps.default.so
 lib/hw/nfc.msm8960.so
 lib/libMPU3050.so

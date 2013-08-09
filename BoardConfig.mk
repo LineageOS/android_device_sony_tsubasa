@@ -25,5 +25,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 TARGET_OTA_ASSERT_DEVICE := LT25i,tsubasa
 
+BOARD_HARDWARE_CLASS := device/sony/tsubasa/cmhw
+
 # inherit from the proprietary version
 -include vendor/sony/tsubasa/BoardConfigVendor.mk

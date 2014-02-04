@@ -1,5 +1,5 @@
 #inherit from the common blue definitions
--include device/sony/blue-common/BoardConfigCommon.mk
+include device/sony/blue-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/tsubasa/include
 

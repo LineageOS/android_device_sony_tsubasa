@@ -4,8 +4,6 @@ bin/chargemon
 bin/cnd
 bin/ds_fmc_appd
 bin/fast-dormancy
-bin/fmconfig
-bin/fm_qsoc_patches
 bin/gpsone_daemon
 bin/gsiff_daemon
 bin/hci_qcomm_init
@@ -148,8 +146,6 @@ lib/libdrmtime.so
 lib/libdsi_netctrl.so
 lib/libdsutils.so
 lib/libface.so
-lib/libfmradio.so
-lib/libfmradio.sony-iris.so
 lib/libgemini.so
 lib/lib_get_secure_mode.so
 lib/libgps.utils.so

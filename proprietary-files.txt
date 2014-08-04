@@ -119,9 +119,9 @@ etc/firmware/wcnss.b04
 etc/firmware/wcnss.b05
 etc/firmware/wcnss.mdt
 etc/flashled_calc_parameters.cfg
-lib/hw/camera.qcom.so:lib/hw/vendor-camera.qcom.so
+lib/hw/camera.qcom.so:lib/hw/camera.vendor.qcom.so
 lib/hw/gps.default.so
-lib/hw/lights.default.so:lib/hw/vendor-lights.default.so
+lib/hw/lights.default.so:lib/hw/lights.vendor.default.so
 lib/hw/nfc.msm8960.so
 lib/libacdbloader.so
 lib/libadsprpc.so

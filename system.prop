@@ -1,8 +1,5 @@
 ro.telephony.default_network=9
 telephony.lteOnGsmDevice=1
 
-# Make keys in CWM repeatable
-ro.cwm.enable_key_repeat=true
-
 # Graphics
 ro.sf.lcd_density=320

@@ -13,7 +13,6 @@ bin/illumination_service
 bin/irsc_util
 bin/location-mq
 bin/lowi-server
-bin/mm-pp-daemon
 bin/mpdecision
 bin/netmgrd
 bin/qmuxd

@@ -19,6 +19,7 @@
 
 #define BTM_DEF_LOCAL_NAME   "Xperia V"
 #define BTA_DISABLE_DELAY 1000
+#define BLE_VND_INCLUDED TRUE
 
 #define SC_MODE_INCLUDED FALSE
 

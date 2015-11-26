@@ -3,3 +3,6 @@ telephony.lteOnGsmDevice=1
 
 # Graphics
 ro.sf.lcd_density=320
+
+# By default, primary storage is physical
+ro.vold.primary_physical=1

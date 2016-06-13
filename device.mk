@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2011-2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,17 +14,18 @@
 # limitations under the License.
 #
 
-# Inherit common blue board
-include device/sony/blue-common/BoardConfigCommon.mk
+# Screen density
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
-# Device path
-DEVICE_PATH := device/sony/tsubasa
+# Device specific overlays
+DEVICE_PACKAGE_OVERLAYS += device/sony/tsubasa/overlay
 
-# Device headers
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
+# Blue common product elements
+$(call inherit-product, device/sony/blue-common/common.mk)
 
-# Device board elements
-include $(DEVICE_PATH)/board/*.mk
+# Device product elements
+include $(LOCAL_PATH)/product/*.mk
 
-# Device vendor board
--include vendor/sony/tsubasa/BoardConfigVendor.mk
+# Vendor product configurations
+$(call inherit-product, vendor/sony/tsubasa/tsubasa-vendor.mk)

@@ -1,4 +1,3 @@
-
 #!/bin/sh
 # hw_config.sh.
 # Used to set special parameters.

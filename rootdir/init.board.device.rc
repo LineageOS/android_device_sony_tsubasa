@@ -1,0 +1,4 @@
+on post-fs
+    # Touch firmware update
+    write /data/etc/touch_default_module_id 30
+    mkdir /data/pc 700 radio radio

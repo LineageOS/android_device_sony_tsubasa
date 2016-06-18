@@ -10,7 +10,7 @@ bin/btnvtool
 bin/hci_qcomm_init
 
 # Camera
-lib/hw/camera.qcom.so:lib/hw/camera.vendor.qcom.so
+lib/hw/camera.vendor.qcom.so
 lib/libcamera_clientsemc.so
 lib/libcameralight.so
 lib/libmmcamera_3a_legacy.so
@@ -19,13 +19,10 @@ lib/libmmcamera_frameproc.so
 lib/libmmcamera_hdr_lib.so
 lib/libmmcamera_image_stab.so
 lib/libmmcamera_imx091.so
-lib/libmmcamera_interface.so
-lib/libmmcamera_interface2.so
 lib/libmmcamera_plugin.so
 lib/libmmcamera_statsproc31.so
 lib/libmmcamera_tintless_algo.so
 lib/libmmcamera_tintless_wrapper.so
-lib/libmmcamera_wavelet_lib.so
 lib/libmmjpeg.so
 lib/liboemcamera.so
 
@@ -59,9 +56,6 @@ lib/libcald_pal.so
 lib/libcald_server.so
 lib/libcald_util.so
 
-# Charger
-bin/chargemon
-
 # CNE
 bin/cnd
 lib/libcnefeatureconfig.so
@@ -69,9 +63,7 @@ lib/libcneqmiutils.so
 lib/libcneutils.so
 
 # CPU
-bin/mpdecision
 bin/thermald
-lib/libqc-opt.so:vendor/lib/libqc-opt.so
 lib/libthermalclient.so
 
 # DRM
@@ -92,13 +84,11 @@ etc/firmware/dsps.mdt
 
 # FM Radio
 bin/fmconfig
-bin/fm_qsoc_patches
 lib/libfmradio.so
 lib/libfmradio.sony-iris.so
 
 # GPS
 bin/gpsone_daemon
-bin/gsiff_daemon
 bin/location-mq
 bin/lowi-server
 bin/quipc_igsn
@@ -134,8 +124,6 @@ etc/firmware/dxhdcp2.mdt
 bin/irsc_util
 
 # Lights
-bin/illumination_service
-lib/hw/lights.default.so:lib/hw/lights.vendor.default.so
 lib/liblights-core.so
 lib/libsys-utils.so
 
@@ -206,17 +194,13 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 
 # Radio
-bin/ds_fmc_appd
 bin/netmgrd
 bin/qmuxd
-bin/rmt_storage
-lib/libcsd-client.so
 lib/libdsi_netctrl.so
 lib/libdsutils.so
 lib/libidl.so
 lib/libnetmgr.so
 lib/libpin-cache.so
-lib/libqcci_adc.so
 lib/libqcci_legacy.so
 lib/libqdi.so
 lib/libqdp.so
@@ -227,8 +211,6 @@ vendor/lib/libdiag.so
 # Security
 bin/secchand
 lib/lib_asb_tee.so
-lib/lib_get_secure_mode.so
-lib/libcredential-manager-service.so
 lib/libidd.so
 lib/libkeyctrl.so
 lib/libs1sl.so
@@ -258,11 +240,8 @@ lib/libsensors_akm8972.so
 # TA
 bin/ta_param_loader
 bin/ta_qmi_service
-bin/taimport
 bin/updatemiscta
-lib/libMiscTaAccessor.so
 lib/libmiscta.so
-lib/libta.so
 
 # Touchscreen
 bin/rmi4_fwloader

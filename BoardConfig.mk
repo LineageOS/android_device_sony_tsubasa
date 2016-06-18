@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2015-2016 The CyanogenMod Project
+# Copyright (C) 2013-2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,17 +14,17 @@
 # limitations under the License.
 #
 
-# Inherit common blue board
-include device/sony/blue-common/BoardConfigCommon.mk
-
-# Device path
+# Board device path
 DEVICE_PATH := device/sony/tsubasa
 
-# Device headers
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
+# Board device headers
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
-# Device board elements
+# Board common elements
+include device/sony/blue-common/BoardConfigCommon.mk
+
+# Board device elements
 include $(DEVICE_PATH)/board/*.mk
 
-# Device vendor board
+# Board device vendor
 -include vendor/sony/tsubasa/BoardConfigVendor.mk

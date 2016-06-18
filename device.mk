@@ -19,9 +19,9 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Device specific overlays
-DEVICE_PACKAGE_OVERLAYS += device/sony/tsubasa/overlay
+DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
 
-# Blue common product elements
+# Common product elements
 $(call inherit-product, device/sony/blue-common/common.mk)
 
 # Device product elements

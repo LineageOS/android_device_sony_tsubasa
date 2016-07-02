@@ -1,4 +1,3 @@
 # Init packages
 PRODUCT_PACKAGES += \
-    init.board.device.rc \
-    init.board.usb.rc
+    init.board.device.rc

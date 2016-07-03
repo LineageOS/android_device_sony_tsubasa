@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2012-2013 The CyanogenMod Project
+ * Copyright (C) 2012-2016 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-char const*const LCD_BACKLIGHT_FILE  = "/sys/class/leds/lcd-backlight_1/brightness";
-char const*const LCD_BACKLIGHT2_FILE = "/sys/class/leds/lcd-backlight_2/brightness";
-char const*const MAX_BRIGHTNESS_FILE = "/sys/class/leds/lcd-backlight_1/max_brightness";
-const int LCD_BRIGHTNESS_MIN         = 10;
+char const*const LCD_BACKLIGHT_FILE  = "/sys/devices/i2c-10/10-0040/leds/lcd-backlight_1/brightness";
+char const*const LCD_BACKLIGHT2_FILE = "/sys/devices/i2c-10/10-0040/leds/lcd-backlight_2/brightness";
+char const*const MAX_BRIGHTNESS_FILE = "/sys/devices/i2c-10/10-0040/leds/lcd-backlight_1/max_brightness";
+const int LCD_BRIGHTNESS_MIN = 1;

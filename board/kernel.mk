@@ -1,2 +1,2 @@
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_blue_tsubasa_defconfig
+TARGET_KERNEL_CONFIG := blue_tsubasa_defconfig

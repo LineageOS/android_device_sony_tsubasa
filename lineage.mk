@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2011-2016 The CyanogenMod Project
+#           (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,7 +27,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Device identifications
 PRODUCT_DEVICE := tsubasa
-PRODUCT_NAME := cm_tsubasa
+PRODUCT_NAME := lineage_tsubasa
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_MODEL := Xperia V

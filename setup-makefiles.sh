@@ -23,4 +23,4 @@ export DEVICE_COMMON=blue-common
 export DEVICE=tsubasa
 export VENDOR=sony
 
-./../$DEVICE_COMMON/extract-files.sh $@
+./../$DEVICE_COMMON/setup-makefiles.sh

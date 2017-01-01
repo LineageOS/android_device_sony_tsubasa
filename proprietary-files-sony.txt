@@ -1,0 +1,72 @@
+# Audio
+lib/libaudcal.so
+
+# Camera
+etc/flashled_calc_parameters.cfg
+lib/libcald_client.so
+lib/libcald_hal.so
+lib/libcald_imageutil.so
+lib/libcald_pal.so
+lib/libcald_server.so
+lib/libcald_util.so
+lib/liboemcamera.so
+
+# Camera Firmware
+vendor/camera/APT00YP1.dat
+vendor/camera/KMO13BS0.dat
+vendor/camera/KMO13BS0_BU6456.dat
+vendor/camera/KMO13BS0_IMX091.dat
+vendor/camera/SOI13BS0.dat
+vendor/camera/SOI13BS0_BU6456.dat
+vendor/camera/SOI13BS0_IMX091.dat
+vendor/camera/STW00YP1.dat
+vendor/camera/flash.dat
+vendor/camera/product.dat
+
+# DSPS Firmware
+etc/firmware/dsps.b00
+etc/firmware/dsps.b01
+etc/firmware/dsps.b02
+etc/firmware/dsps.b03
+etc/firmware/dsps.b04
+etc/firmware/dsps.b05
+etc/firmware/dsps.mdt
+
+# DxHDCP firmware
+etc/firmware/dxhdcp2.b00
+etc/firmware/dxhdcp2.b01
+etc/firmware/dxhdcp2.b02
+etc/firmware/dxhdcp2.b03
+etc/firmware/dxhdcp2.mdt
+
+# NFC
+lib/hw/nfc.msm8960.so
+
+# Sensors
+lib/libals.so
+
+# TA
+bin/updatemiscta
+
+# Touchscreen firmware
+bin/rmi4_fwloader
+etc/firmware/touch_module_id_0x30.img
+etc/firmware/touch_module_id_0x31.img
+etc/firmware/touch_module_id_0x40.img
+
+# Trustzone Firmware
+etc/firmware/tzlibasb.b00
+etc/firmware/tzlibasb.b01
+etc/firmware/tzlibasb.b02
+etc/firmware/tzlibasb.b03
+etc/firmware/tzlibasb.mdt
+etc/firmware/tzs1sl.b00
+etc/firmware/tzs1sl.b01
+etc/firmware/tzs1sl.b02
+etc/firmware/tzs1sl.b03
+etc/firmware/tzs1sl.mdt
+etc/firmware/tzsuntory.b00
+etc/firmware/tzsuntory.b01
+etc/firmware/tzsuntory.b02
+etc/firmware/tzsuntory.b03
+etc/firmware/tzsuntory.mdt

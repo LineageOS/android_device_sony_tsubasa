@@ -1,3 +1,6 @@
+Copyright 2016 - The CyanogenMod Project  
+Copyright 2017 - The LineageOS Project  
+
 Sony Xperia V
 =============
 
@@ -5,7 +8,7 @@ The Sony Xperia V (codenamed _"Tsubasa"_) is a mid-range smartphone from Sony Mo
 
 It was announced on 29 August 2012.
 
-Tsubasa was supported in CyanogenMod 10.1, 10.2, 11, 12 and now by CyanogenMod 13.0
+Tsubasa was supported in CyanogenMod 10.1, 10.2, 11, 12, 13.0, 14.1 and now by LineageOS 14.1
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -19,6 +22,6 @@ Battery | 1750 mAh
 Display | 4.3" 1280 x 720 px
 Camera  | 13MPx, LED Flash
 
-![Sony Xperia V](http://wiki.cyanogenmod.org/images/3/30/Tsubasa.png "Sony Xperia V in black")
+![Sony Xperia V](http://cdn2.gsmarena.com/vv/pics/sony/sony-xperia-v.jpg "Sony Xperia V in black")
 
-This branch is for building CyanogenMod 13.0 (or Android Marshmallow 6.0 AOSP based roms) ROMS.
+This branch is for building LineageOS 14.1 (or Android Marshmallow 7.1 AOSP based roms) ROMS.

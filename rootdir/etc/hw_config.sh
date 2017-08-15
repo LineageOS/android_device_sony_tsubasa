@@ -3,8 +3,8 @@
 # Used to set special parameters.
 
 # Touch FW updater. Force firmware upgrade if necessary (for e.g. if'function 11' is missing.)
-ls -l /sys/bus/rmi4/devices/sensor00/sensor00.f11/ &> /dev/null
 flags=
+ls -l /sys/bus/rmi4/devices/sensor00/sensor00.f11/ &> /dev/null
 if [ $? -ne 0 ] ; then
         flags="-r -f"
 fi

@@ -32,5 +32,8 @@ $(call inherit-product, device/sony/blue-common/common.mk)
 # Device product elements
 include $(LOCAL_PATH)/product/*.mk
 
+# Common Android Go configurations
+$(call inherit-product, build/target/product/go_defaults.mk)
+
 # Vendor product configurations
 $(call inherit-product, vendor/sony/tsubasa/tsubasa-vendor.mk)

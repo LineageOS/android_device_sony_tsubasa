@@ -18,3 +18,5 @@ char const*const LCD_BACKLIGHT_FILE  = "/sys/devices/i2c-10/10-0040/leds/lcd-bac
 char const*const LCD_BACKLIGHT2_FILE = "/sys/devices/i2c-10/10-0040/leds/lcd-backlight_2/brightness";
 char const*const MAX_BRIGHTNESS_FILE = "/sys/devices/i2c-10/10-0040/leds/lcd-backlight_1/max_brightness";
 const int LCD_BRIGHTNESS_MIN = 1;
+
+#define ENABLE_GAMMA_CORRECTION_SINE
